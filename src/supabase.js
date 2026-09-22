@@ -55,8 +55,8 @@ function generateDemoData() {
       { id: nid(), clave: 'pAdulto', valor: 5000 },
       { id: nid(), clave: 'pin', valor: '1234' },
       { id: nid(), clave: 'claves', valor: [
-        { nombre: 'Admin', clave: '1234' },
-        { nombre: 'Encargado', clave: '5678' },
+        { nombre: 'Admin', pin: '1234' },
+        { nombre: 'Encargado', pin: '5678' },
       ]},
       { id: nid(), clave: 'notas_calendario', valor: [] },
       { id: nid(), clave: 'mets_caja', valor: ['Efectivo','Transferencia','Tarjeta débito','Tarjeta crédito','Mercado Pago','Otro'] },
