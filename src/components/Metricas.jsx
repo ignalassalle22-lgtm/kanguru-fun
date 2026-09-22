@@ -223,7 +223,7 @@ export default function Metricas({ eventos }) {
         }),
       })
     } catch {
-      alert('No se pudo conectar con el servidor de impresión.\nAsegurate de que kangoo_print_server.py esté corriendo.')
+      alert('No se pudo conectar con el servidor de impresión.\nAsegurate de que kanguru_print_server.py esté corriendo.')
     } finally {
       setPrinting(false)
     }

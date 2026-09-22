@@ -35,7 +35,7 @@ export default function Config({ config, updateConfig, addToast, productos = [],
   // ── Menú digital ──
   const _md = config.menu_digital || {}
   const [mdActivo, setMdActivo] = useState(_md.activo || false)
-  const [mdTitulo, setMdTitulo] = useState(_md.titulo || 'Kangoo Cumples')
+  const [mdTitulo, setMdTitulo] = useState(_md.titulo || 'Kanguru Fun')
   const [mdSubtitulo, setMdSubtitulo] = useState(_md.subtitulo || '')
   const [mdLogoUrl, setMdLogoUrl] = useState(_md.logoUrl || '')
   const [mdProductosIds, setMdProductosIds] = useState(_md.productosIds || [])
@@ -605,7 +605,7 @@ export default function Config({ config, updateConfig, addToast, productos = [],
           <div className="fg" style={{ marginBottom: 14 }}>
             <div className="fgg">
               <label>Título del menú</label>
-              <input value={mdTitulo} onChange={e => setMdTitulo(e.target.value)} placeholder="Ej: Kangoo Cumples" />
+              <input value={mdTitulo} onChange={e => setMdTitulo(e.target.value)} placeholder="Ej: Kanguru Fun" />
             </div>
             <div className="fgg">
               <label>Subtítulo</label>

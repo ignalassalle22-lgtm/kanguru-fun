@@ -97,7 +97,7 @@ export default function PedidoEstado() {
       playNotifSound()
       if ('vibrate' in navigator) navigator.vibrate([200, 100, 200, 100, 400])
       if ('Notification' in window && Notification.permission === 'granted') {
-        new Notification('¡Tu pedido está listo! 🎉', { body: 'Pasá a retirar en caja · Kangaroo Fun', icon: '/logo.jpg' })
+        new Notification('¡Tu pedido está listo! 🎉', { body: 'Pasá a retirar en caja · Kanguru Fun', icon: '/logo.jpg' })
       }
     }
     if (nuevoEstado === 'cobrado') {
@@ -155,7 +155,7 @@ export default function PedidoEstado() {
   if (loading) return (
     <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: C.bg }}>
       <div style={{ textAlign: 'center' }}>
-        <img src="/logo.jpg" alt="Kangaroo Fun" style={{ width: 88, height: 88, borderRadius: '50%', objectFit: 'cover', marginBottom: 16 }} />
+        <img src="/logo.jpg" alt="Kanguru Fun" style={{ width: 88, height: 88, borderRadius: '50%', objectFit: 'cover', marginBottom: 16 }} />
         <p style={{ fontFamily: 'Nunito, sans-serif', fontWeight: 700, color: C.mu }}>Cargando pedido...</p>
       </div>
     </div>
@@ -188,8 +188,8 @@ export default function PedidoEstado() {
         textAlign: 'center',
         transition: 'background 0.8s ease',
       }}>
-        <img src="/logo.jpg" alt="Kangaroo Fun" style={{ width: 72, height: 72, borderRadius: '50%', objectFit: 'cover', border: '3px solid rgba(255,255,255,0.3)', display: 'block', margin: '0 auto 16px', boxShadow: '0 4px 16px rgba(0,0,0,0.2)' }} />
-        <div style={{ color: 'rgba(255,255,255,0.7)', fontSize: 12, letterSpacing: '.1em', textTransform: 'uppercase', fontFamily: 'Nunito, sans-serif', marginBottom: 4 }}>Kangaroo Fun</div>
+        <img src="/logo.jpg" alt="Kanguru Fun" style={{ width: 72, height: 72, borderRadius: '50%', objectFit: 'cover', border: '3px solid rgba(255,255,255,0.3)', display: 'block', margin: '0 auto 16px', boxShadow: '0 4px 16px rgba(0,0,0,0.2)' }} />
+        <div style={{ color: 'rgba(255,255,255,0.7)', fontSize: 12, letterSpacing: '.1em', textTransform: 'uppercase', fontFamily: 'Nunito, sans-serif', marginBottom: 4 }}>Kanguru Fun</div>
         <h1 style={{ color: '#fff', fontFamily: 'Nunito, sans-serif', fontWeight: 900, fontSize: 22, margin: '0 0 4px' }}>
           Pedido #{pedido.numero}
         </h1>

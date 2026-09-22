@@ -107,7 +107,7 @@ export default function DetalleModal({ evento: ev, config, onClose, onEditar, on
         }),
       })
     } catch {
-      alert('No se pudo conectar con el servidor de impresión.\nAsegurate de que "Iniciar Impresora Kangoo.bat" esté corriendo.')
+      alert('No se pudo conectar con el servidor de impresión.\nAsegurate de que "Iniciar Impresora Kanguru.bat" esté corriendo.')
     } finally {
       setPrinting(false)
     }

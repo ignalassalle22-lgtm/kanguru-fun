@@ -34,8 +34,8 @@ export default function Login({ onLogin }) {
         boxShadow: 'var(--sh2)', border: '1px solid var(--bd)',
       }}>
         <div style={{ textAlign: 'center', marginBottom: 32 }}>
-          <img src="/logo.jpg" alt="Kangaroo Fun" style={{ width: 72, height: 72, borderRadius: '50%', objectFit: 'cover', border: '3px solid var(--or2)', marginBottom: 14 }} />
-          <div style={{ fontSize: 22, fontWeight: 800, color: 'var(--nv)', fontFamily: "'Nunito', sans-serif" }}>Kangaroo Fun</div>
+          <img src="/logo.jpg" alt="Kanguru Fun" style={{ width: 72, height: 72, borderRadius: '50%', objectFit: 'cover', border: '3px solid var(--or2)', marginBottom: 14 }} />
+          <div style={{ fontSize: 22, fontWeight: 800, color: 'var(--nv)', fontFamily: "'Nunito', sans-serif" }}>Kanguru Fun</div>
           <div style={{ fontSize: 13, color: 'var(--mu)', marginTop: 2 }}>Sistema de gestión</div>
         </div>
 
@@ -46,7 +46,7 @@ export default function Login({ onLogin }) {
               type="text"
               value={username}
               onChange={e => { setUsername(e.target.value); setErr('') }}
-              placeholder="Ej: kangaroo1"
+              placeholder="Ej: kanguru1"
               autoFocus
               autoComplete="username"
             />

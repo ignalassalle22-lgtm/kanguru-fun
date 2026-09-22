@@ -83,7 +83,7 @@ pre{font-family:inherit;font-size:8px;margin:2px 0;color:#555}table{width:100%;b
 td.r{text-align:right;white-space:nowrap}.section{font-size:8px;font-weight:bold;text-transform:uppercase;margin:3px 0 1px}
 .bold td{font-weight:bold}.big td{font-size:9px;font-weight:bold;padding-top:2px}.dif td{font-size:9px;font-weight:bold;color:${difColor}}
 .foot{text-align:center;font-size:7px;color:#666;margin-top:4px}</style></head><body>
-<h1>CIERRE DE CAJA</h1><div class="sub">Kangaroo Fun</div><pre>${sep2}</pre>
+<h1>CIERRE DE CAJA</h1><div class="sub">Kanguru Fun</div><pre>${sep2}</pre>
 <table><tr><td>Caja</td><td class="r"><b>${caja.nombre||'Caja'}</b></td></tr>
 ${caja.turno?`<tr><td>Turno</td><td class="r">${caja.turno}</td></tr>`:''}
 <tr><td>Fecha</td><td class="r">${caja.fecha||''}</td></tr>
@@ -125,7 +125,7 @@ table{width:100%;border-collapse:collapse}td{padding:1px 0;font-size:8px;vertica
 .foot{text-align:center;font-size:7px;color:#666;margin-top:4px}
 </style></head><body>
 <h1>EGRESO AL COFRE</h1>
-<div class="sub">Kangaroo Fun — ${cajaNombre || 'Caja'}</div>
+<div class="sub">Kanguru Fun — ${cajaNombre || 'Caja'}</div>
 <pre class="sep">--------------------------------</pre>
 <table>
 <tr><td>Fecha</td><td style="text-align:right">${fecha} ${hora}</td></tr>
@@ -166,7 +166,7 @@ table{width:100%;border-collapse:collapse}td{padding:1px 0;font-size:8px;vertica
 .total td{font-size:10px;font-weight:bold;border-top:1px solid #000;padding-top:2px}
 .foot{text-align:center;font-size:7px;color:#666;margin-top:4px}
 </style></head><body>
-<h1>KANGOO CUMPLES</h1>
+<h1>KANGURU FUN</h1>
 <div class="sub">Ticket #${venta.numero || ''}</div>
 <pre class="sep">--------------------------------</pre>
 <table>

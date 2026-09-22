@@ -123,7 +123,7 @@ export default function MenuPublico() {
   if (loading) return (
     <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: C.bg }}>
       <div style={{ textAlign: 'center' }}>
-        <img src="/logo.jpg" alt="Kangaroo Fun" style={{ width: 88, height: 88, borderRadius: '50%', objectFit: 'cover', marginBottom: 16, opacity: 0.8 }} />
+        <img src="/logo.jpg" alt="Kanguru Fun" style={{ width: 88, height: 88, borderRadius: '50%', objectFit: 'cover', marginBottom: 16, opacity: 0.8 }} />
         <p style={{ fontFamily: 'Nunito, sans-serif', fontWeight: 700, color: C.mu, fontSize: 15 }}>Cargando...</p>
       </div>
     </div>
@@ -132,7 +132,7 @@ export default function MenuPublico() {
   if (error) return (
     <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: C.bg }}>
       <div style={{ textAlign: 'center', padding: '0 32px' }}>
-        <img src="/logo.jpg" alt="Kangaroo Fun" style={{ width: 88, height: 88, borderRadius: '50%', objectFit: 'cover', marginBottom: 16, opacity: 0.6 }} />
+        <img src="/logo.jpg" alt="Kanguru Fun" style={{ width: 88, height: 88, borderRadius: '50%', objectFit: 'cover', marginBottom: 16, opacity: 0.6 }} />
         <p style={{ fontFamily: 'Nunito, sans-serif', fontWeight: 600, color: C.mu, fontSize: 15 }}>{error}</p>
       </div>
     </div>
@@ -148,10 +148,10 @@ export default function MenuPublico() {
         <div style={{ background: C.nv, height: 8, width: '100%' }} />
         <div style={{ textAlign: 'center', padding: '28px 24px 0' }}>
           <div style={{ width: 110, height: 110, borderRadius: '50%', background: C.wh, display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 6px 24px rgba(0,0,0,0.25)', border: `4px solid ${C.nv}`, overflow: 'hidden', margin: '0 auto 16px' }}>
-            <img src={logoSrc} alt="Kangaroo Fun" style={{ width: '100%', height: '100%', objectFit: 'cover' }} onError={e => { e.target.style.display = 'none' }} />
+            <img src={logoSrc} alt="Kanguru Fun" style={{ width: '100%', height: '100%', objectFit: 'cover' }} onError={e => { e.target.style.display = 'none' }} />
           </div>
           <h1 style={{ fontFamily: 'Nunito, sans-serif', fontWeight: 900, fontSize: 32, color: C.wh, letterSpacing: '-0.5px', margin: '0 0 6px', textShadow: '0 2px 8px rgba(0,0,0,0.2)', textTransform: 'uppercase' }}>
-            Kangaroo <span style={{ color: C.nv, WebkitTextStroke: '1px rgba(255,255,255,0.3)' }}>Fun</span>
+            Kanguru <span style={{ color: C.nv, WebkitTextStroke: '1px rgba(255,255,255,0.3)' }}>Fun</span>
           </h1>
           <p style={{ fontFamily: 'Nunito Sans, sans-serif', fontSize: 14, color: 'rgba(255,255,255,0.85)', margin: 0, fontWeight: 600, letterSpacing: '.04em' }}>
             {cfg.subtitulo || 'Hacé tu pedido'}
@@ -209,8 +209,8 @@ export default function MenuPublico() {
 
       {/* Footer */}
       <div style={{ background: C.nv, padding: '20px 16px', textAlign: 'center' }}>
-        <img src="/logo.jpg" alt="Kangaroo Fun" style={{ width: 48, height: 48, borderRadius: '50%', objectFit: 'cover', border: `2px solid ${C.or}`, display: 'block', margin: '0 auto 8px' }} />
-        <div style={{ fontFamily: 'Nunito, sans-serif', fontWeight: 900, color: C.or2, fontSize: 14, textTransform: 'uppercase', letterSpacing: '.06em', marginBottom: 2 }}>Kangaroo Fun</div>
+        <img src="/logo.jpg" alt="Kanguru Fun" style={{ width: 48, height: 48, borderRadius: '50%', objectFit: 'cover', border: `2px solid ${C.or}`, display: 'block', margin: '0 auto 8px' }} />
+        <div style={{ fontFamily: 'Nunito, sans-serif', fontWeight: 900, color: C.or2, fontSize: 14, textTransform: 'uppercase', letterSpacing: '.06em', marginBottom: 2 }}>Kanguru Fun</div>
         <div style={{ color: 'rgba(255,255,255,0.4)', fontSize: 11 }}>Los precios pueden variar · Consultá en caja</div>
       </div>
 

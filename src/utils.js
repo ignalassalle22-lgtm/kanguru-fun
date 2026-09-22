@@ -228,7 +228,7 @@ export const DEFAULT_CONFIG = {
   mets_caja: ['Efectivo', 'Transferencia', 'Tarjeta débito', 'Tarjeta crédito', 'Mercado Pago', 'Otro'],
   menu_digital: {
     activo: false,
-    titulo: 'Kangaroo Fun',
+    titulo: 'Kanguru Fun',
     subtitulo: '',
     logoUrl: '',
     productosIds: [],
