@@ -129,7 +129,8 @@ function generateDemoData() {
 
   // ── Fechas junio-sept 2026 ──
   const start = new Date(2026, 5, 1)
-  const end = new Date(2026, 8, 22)
+  const end = new Date(2026, 10, 30) // hasta fin de noviembre
+  const today = new Date()
   const allDates = []
   for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) allDates.push(new Date(d))
 
@@ -151,8 +152,8 @@ function generateDemoData() {
     const extras = Math.random() < 0.5 ? [{ eid: String(rnd(1,8)), qty: rnd(1, chi) }] : []
     const subtotal = chi * 28000 + adu * 5000
     const total = Math.round(subtotal * (1 - promoPct / 100)) + rnd(0, 3) * 5000
-    const isPast = d < new Date()
-    const pago = isPast ? pick(['paid','paid','paid','sena']) : pick(['none','sena','paid','sena'])
+    const isPast = d < today
+    const pago = isPast ? pick(['paid','paid','paid','sena']) : pick(['none','none','sena','sena','sena'])
     const monto = pago === 'paid' ? total : pago === 'sena' ? Math.round(total * rnd(30, 60) / 100) : 0
     db.eventos.push({
       id: nid(), fecha: fmtD(d), hora: pick(HORAS_EV), salon: pick(SALONES),
